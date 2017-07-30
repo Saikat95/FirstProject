@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>SuperMarketView</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<style type="text/css">
+  code{
+
+  float:right;
+
+  }
+
+  .offset code{
+    background:#2db34a;
+    color: #fff;
+    display:inline-block;
+    height: 100px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 500px;
+    padding-left: 500px;
+    text-align: center;
+    position: relative;
+
+  }
+  img{
+    float:right;
+  }
+
+  .pull-right {
+  float: right !important;
+}
+
+
+.divider{
+  width: 800px;
+  display: inline-block;
+
+  }
+
+
+  </style>
+
+</head>
+
+<!--This is the main source file and adress of the respective fonts and properties. Copied from basic bootstrap example file-->
+<body>
+
+<div class="container">
+  <div class="offset">
+  <code>
+    <h1><strong>LENDING<br>HAND</strong></h1>
+    </code>
+  </div>     
+</div>
+<div class="container">
+<div class="row-sm-12 row-xs-12 row-md-12 row-lg-12">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+  
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">1</a></li>
+      <li><a href="#">2</a></li>
+      <li><a href="#">3</a></li>
+      <div class="divider"></div>
+      <li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="profile.png" class="img-circle" alt="Loading" width="30" height="30">
+    <span class="caret"></span></a>
+    <ul class="dropdown-menu">
+      <li><a href="#">Logout</a></li>
+      <li><a href="#">Change Picture</a></li>
+      <li><a href="#">Add Account</a></li> 
+    </ul>
+  </li>
+  
+
+    </ul>
+  </div>
+</nav>
+</div>
+
+<div class="container">
+  <h2>UPDATE INVENTORY</h2>
+  <p>The details about your recent activities are listed below</p>
+  <!--This was heading and description part of the table-->
+
+  <table class="table table-striped">
+  <!--the table type can be changed. Here i have used the striped table. Later it can be updated as basic,dotted,etc-->
+    <tbody>
+    <thead>
+      <tr>
+      <th>Serial<b>Number</b></th>
+        <th>ITEM NAME</th>
+        <th>QUANTITY</th>
+        <th>PRICE TAG</th>
+      </tr>
+      <!--This represenrts a row-->
+    </thead>
+      <tr>
+      <td>1</td>
+        <td>Item 1</td>
+        <td>Null</td>
+        <td>Null</td>
+      </tr>
+      <!--This represenrts a row-->
+      <tr>
+      <td>2</td>
+        <td>Item 2</td>
+        <td>Null</td>
+        <td>Null</td>
+      </tr>
+      <tr>
+      <td>3</td>
+        <td>Item 2</td>
+        <td>Null</td>
+        <td>Null</td>
+      </tr>
+      <!--This represenrts a row-->
+    </tbody>
+  </table>
+</div>
+
+<!--This was the updated table body-->
+
+ <div class="container">
+ <code>
+ <button type="button" class="btn btn-primary">Clear</button>
+ <button type="button" class="btn btn-primary">Update</button>
+ </code>
+ </div>
+
+
+<!--The update and clear buttons. I have used primary keys. It can be altered to darger,basic,info type-->
+
+<div class="container">
+<h3>List of Sales</h3>
+</div>
+
+<div class="container">
+<div class="list-group">
+  <a href="#" class="list-group-item">Item 1</a>
+  <a href="#" class="list-group-item">Item 2</a>
+  <a href="#" class="list-group-item">Item 3</a>
+</div>
+</div>
+
+<!--List of items donated by individuals-->
+
+
+</body>
+</html>
